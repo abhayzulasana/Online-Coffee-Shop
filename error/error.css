@@ -1,0 +1,39 @@
+.error{
+    /* top: 151px; */
+    left: 0px;
+    width: 100%;
+    height: 81%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.error-cont{
+justify-content: center;
+text-align: center;
+}
+.error-cont h6{
+  /* height: 303px; */
+  color: #A88E63 ;
+  font-size: 400px;
+}
+.error-cont h1{
+  font: normal normal normal 35px/43px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+.error-cont h2{
+  font: normal normal normal 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  margin-top: 23px;
+}
+.error-cont h3{
+  margin-top: 70px;
+  font: normal normal normal 35px/40px Bellefair;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+span{
+  font-size: 70px;
+}

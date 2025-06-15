@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    /* margin-left:90px; */
+    height: 100vh;
+  }
+  html {
+    scroll-behavior: smooth;
+    /*Adds smooth scrolling instead of snapping to element*/
+  }
+
+  .menu{
+    padding-bottom: 50px;
+    gap: 32px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 125px 0px 125px 0px;
+  }
+  .i-m{
+    text-align: center;
+    width: 178px;
+    height: 148px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+  .i-m h3{
+    margin-top: 60px;
+    font-family: 'Montserrat';
+    font-size: 22px;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+  }
+
+  /* <!-- STARTERS --> */
+  .starters{
+    padding: 125px 135px 125px 135px;
+    background-color: #fff;
+    color: #121D27;
+    height: auto;
+    justify-content: center;
+    justify-items: center;
+
+  }
+    .starters h5{
+        text-align: center;
+        font-family: 'Bellefair';
+        font-size: 40px;
+        font: normal normal normal 40px/46px ;
+        letter-spacing: 0px;
+        color: #C5A572;
+        text-transform: uppercase;
+        opacity: 1;
+        margin-bottom: 11px;
+
+    }
+
+    .container {
+      margin: 0 auto;
+    }
+    
+    .row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      gap: 94px;
+    }
+    
+    .item {
+      /* margin-bottom: 2rem; */
+      margin-bottom: 80px;
+    }
+    
+    .dots{
+      padding: 10px;
+      flex: 1;
+      border-bottom: 1px dotted #707070;
+      height: 1px;
+      margin: 10px 10px;
+    }
+    .title-line {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .title-line h2 {
+      font: normal normal normal 35px/40px Bellefair;
+      letter-spacing: 0.28px;
+      color: #121D27;
+      text-transform: capitalize;    
+    }
+    
+    .title-line span {
+      font: normal normal normal 35px/40px Bellefair;
+      letter-spacing: 0.28px;
+      color: #121D27;
+      text-transform: capitalize;
+      opacity: 1;    
+    }
+    
+    .item p {
+      margin: 0;
+      color: #777;
+    }
+    
+    /* LUNCH  */
+    .lunch{
+      padding: 125px 135px 125px 135px;
+      height: 1135px;
+      background: url('../img/menu/bgmenuimg.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      justify-items: center;
+
+    }
+    .lunch h5{
+      text-align: center;
+      font-family: 'Bellefair';
+      font-size: 40px;
+      font: normal normal normal 40px/46px ;
+      letter-spacing: 0px;
+      color: #C5A572;
+      text-transform: uppercase;
+      opacity: 1;
+      margin-bottom: 11px;
+  }
+    .item2 {
+      /* margin-bottom: 2rem; */
+      margin-bottom: 80px;
+    }
+    .item2 p{
+      font: normal normal normal 20px/24px Montserrat;
+      letter-spacing: 0.16px;
+      color: #FFFFFF;
+      text-transform: lowercase;
+      opacity: 0.59;
+    }
+    .title-line2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .title-line2 h2 {
+      font: normal normal normal 35px/40px Bellefair;
+      letter-spacing: 0.28px;
+      color: #FFFFFF;
+      text-transform: capitalize;    
+    }
+    
+    .title-line2 span {
+      font: normal normal normal 35px/40px Bellefair;
+      letter-spacing: 0.28px;
+      color: #FFFFFF;
+      text-transform: capitalize;
+      opacity: 1;    
+    }
+
+    /* DINNER */
+    .Dinner{
+        padding: 125px 135px 125px 135px;
+        background-color: #fff;
+        color: #121D27;
+        height: auto;
+        justify-content: center;
+        justify-items: center;
+    
+      }
+      .Dinner h5{
+            text-align: center;
+            font-family: 'Bellefair';
+            font-size: 40px;
+            font: normal normal normal 40px/46px ;
+            letter-spacing: 0px;
+            color: #C5A572;
+            text-transform: uppercase;
+            opacity: 1;
+            margin-bottom: 11px;
+    
+        }
+    
+        /* special menu */
+    .spe-menu{
+      width: 100%;
+      height: 428px;
+      display: flex;
+      /* flex-wrap: wrap; */
+      justify-content: center;
+    }
+    .s-title{
+      width: 476px;
+      justify-content: center;
+      justify-items: center;
+      text-align: center;
+      background: #F4EEE4 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+    .s-title h5{
+      width: 330px;
+      height: 46px;
+      margin-top: 77px;
+      margin-bottom: 32px;
+      font: normal normal normal 40px/46px Bellefair;
+      letter-spacing: 0.32px;
+      color: #C5A572;
+      opacity: 1;    
+    }
+
+    .s-title h2{
+      width: 250px;
+
+      font: normal normal normal 25px/40px Montserrat;
+      letter-spacing: 0.2px;
+      color: #121D27;
+      text-transform: capitalize;
+      opacity: 0.59;
+    }
+      .b1{
+       display: flex;
+       padding:108px 0px 0px 309px ;
+    }
+    .b2{
+      display: flex;
+      padding:108px 309px 0px 0px ;
+
+    }
+    .btn1 button{
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      opacity: 1;
+      width: 81px;
+      height: 84px;
+
+    }
+    .btn2 button{
+      width: 81px;
+      height: 84px;
+      background: #C5A572 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+
+    .white{
+      width: 13px;
+      height: 23px;
+
+
+      background: #C5A572 0% 0% no-repeat padding-box;
+    opacity: 1;
+    }
+    .grey{
+      width: 13px;
+      height: 23px;
+
+
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+
+      /* contact-us */
+      .c-us{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 145px 0px 145px 0px;
+        justify-content: center;
+        text-align: center;
+        justify-items: center;
+        height: 644px;
+      }
+
+      .c-desc h5{
+        font: normal normal normal 22px/27px Montserrat;
+        letter-spacing: 0.18px;
+        color: #C5A572;
+        text-transform: uppercase;
+        height: 27px;
+        margin-bottom: 25px;
+      }
+      .c-desc h2{
+        height: 51px;
+        margin-bottom: 40px;
+        font: normal normal normal 45px/65px Bellefair;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: capitalize;
+      }
+      .c-desc p{
+        font: normal normal medium 20px/37px Montserrat;
+        letter-spacing: 0.4px;
+        color: #121D27;
+        opacity: 0.59;
+        width: 915px;
+        height: 98px;
+        margin-bottom: 40px;
+      }
+      .c-desc button{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #C5A572;
+        opacity: 1;
+        width: 197px;
+height: 73px;
+      }
+      .btn3{
+        font-size: 26px;
+        font-family: 'Montserrat';
+        letter-spacing: 0px;
+        color: #C5A572;
+        opacity: 1;
+      }

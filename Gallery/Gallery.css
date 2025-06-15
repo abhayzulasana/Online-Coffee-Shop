@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    /* margin-left:90px; */
+    height: 100vh;
+  }
+  html {
+    scroll-behavior: smooth;
+    /*Adds smooth scrolling instead of snapping to element*/
+  }
+
+  .images{
+    height: auto;
+    padding: 125px 135px 0px 135px ;
+  }
+  .menu{
+    display: flex;
+    flex-wrap: wrap;
+    height: 27px;    
+    text-align: left;
+    list-style: none;
+    font-family: Montserrat;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1; 
+    gap: 85px; 
+    margin-bottom: 30px;
+}
+    .menu li{
+        cursor: pointer;
+    }
+    .grid3{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 61px;
+
+    }
+    .column3{
+        width: 446px;
+        height: 440px;    
+    }
+    .column3 img{
+        width: 446px;
+        height: 350px;    
+
+    }
+    .column3 h5{
+        padding-top: 10px;
+        padding-left: 45px;
+        height: 90px;
+         text-align: left;
+        font: normal normal normal 30px/65px Bellefair;
+        letter-spacing: 0.6px;
+        color: #121D27;
+        opacity: 1;
+        background: #F4EEE4 0% 0% no-repeat padding-box;
+opacity: 1;
+    }
+
+    .btn{
+        padding:60px ;
+        text-align: center;
+
+    }
+    .btn button{
+        left: 740px;
+        width: 197px;
+        height: 73px;
+        font-family:'Montserrat' ;
+        font-size: 26px;
+        color: #C5A572;        
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #C5A572;
+        opacity: 1;
+    }

@@ -1,0 +1,75 @@
+# Node modules (if you're using npm or a build tool like webpack)
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm/
+
+# Environment variables
+.env
+.env.* 
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code settings
+.vscode/
+
+# Build or dist folder (if you're compiling/minifying assets)
+dist/
+build/
+
+# Cache files
+.cache/
+*.cache
+
+# Temp files
+*.tmp
+*.swp
+*.bak
+*.swo
+
+# Sass or SCSS cache
+.sass-cache/
+
+# Coverage reports
+coverage/
+
+# Compressed files
+*.zip
+
+# History files (terminals, editors, and tools)
+.history/
+*.history
+*.hist
+*.bash_history
+*.zsh_history
+*.sh_history
+*.terminal
+*.log-history
+
+# IDE specific folders
+.idea/
+*.iml
+
+# Backup and autosave files
+*~
+*.bak
+*.tmp
+*.orig
+
+# OS trash folder
+.Trash-*/

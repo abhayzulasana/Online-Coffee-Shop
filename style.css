@@ -1,259 +1,228 @@
 /* Reset & Base */
 * {
-    margin: 0;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Inter', sans-serif;
-    color: white;
-    /* margin-left:90px; */
-    height: 100vh;
-  }
-  html {
-    scroll-behavior: smooth;
-    /*Adds smooth scrolling instead of snapping to element*/
-  }
-  
-  /* Top Bar */
-  .top-bar {
-    top: 0px;
-    width: 100%;
-    height: 50px;
-    background-color: #000;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 30px;
-    font-size: 14px;
-    
-  }
-  
-  .social-icons a {
-    margin-top:7px;
-    width:40px;
-    height: 17px;
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
-    /* margin-right: 10px; */
-    color: white;
-    /* margin-left: 0px; */
-    /* gap: 10px; */
-  }
-  .fa-facebook{
-    margin-left: 140px;
-  }
-  .contact-info{
-      display: flex;
-      gap: 40px;
-      margin-right: 320px;
-      font-family: 'Inter', sans-serif;
+body {
+  font-family: "Inter", sans-serif;
+  color: white;
+  height: 100vh;
+}
+html {
+  scroll-behavior: smooth;
+}
 
-      align-items: center;
-    
-  }
-  .call{
-      /* gap: 70px; */
-      font-family: 'Inter', sans-serif;
+/* Top Bar */
+.top-bar {
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  font-size: 14px;
+  padding-left: 190px;
+}
 
-      /* font: normal normal medium 16px/19px Montserrat; */
-      width: 209px;
-  }
-  .fa-envelope{
-    width: 209px;
-    font-family: 'Inter', sans-serif;
+.social-icons a {
+  margin-top: 5px;
+  width: 40px;
+  height: 17px;
+  font-size: 20px;
 
-  }
+  color: white;
+}
+.contact-info {
+  display: flex;
+  gap: 40px;
+  margin-right: 110px;
+  font-family: "Montserrat";
 
-  /* Navbar */
-  .navbar {
-    top: 47px;
-    margin-left: 0px;
-    width: 100%;
-    height: 104px;
-    background-color: #0c1a28;
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-    /* align-items: center; */
-    padding: 15px 50px;
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-    font-size: 70px;
-    /* color: #C5A572; */
-  }
-.logo img{
+  align-items: center;
+}
+.contact-info i {
+  font-size: 20px;
+}
+
+/* Navbar */
+.navbar {
+  top: 47px;
+  margin-left: 0px;
+  width: 100%;
+  height: 104px;
+  background-color: #0c1a28;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding: 15px 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 70px;
+}
+.logo img {
   margin-left: 137px;
 }
-  /* .logo span{
-    margin-left: 50px;
-    color: #C5A572;
-  } */
-  .logo-text {
-    top: 81px;
-    width: 92px;
-    height: px;
-    color: #C5A572;
-    font-family: 'Great Vibes', cursive;
-    margin-left: 210px;
-    font-size: 45px;
-  }
-  
-  .logo-text small {
-    display: block;
-    font-size: 12px;
-    font-family: 'Inter', sans-serif;
-  }
-  
-  .nav-links {
-    /* margin-left: 57px; */
-    margin-right: 290px;
-    margin-top: 23px;
-    height: 24px;
-    list-style: none;
-    display: flex;
-    gap: 70px;
-    /* text-align: left; */
-    font: normal normal normal 20px/24px Montserrat;
-    color: #FFFFFF;
-    opacity: 1;
-  }
-  
-  .nav-links li {
-    cursor: pointer;
-  }
-  
-  /* Hero Section */
-  .hero {
-    top: 151px;
-    left: 0px;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: calc(100vh - 100px);
-    padding: 0 50px;
-    background: url('img/bgcafe.png');
+.logo-text {
+  top: 81px;
+  width: 92px;
+  height: px;
+  color: #c5a572;
+  font-family: "Great Vibes", cursive;
+  margin-left: 210px;
+  font-size: 45px;
+}
+
+.logo-text small {
+  display: block;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+}
+
+.nav-links {
+  margin-right: 80px;
+  margin-top: 23px;
+  height: 24px;
+  list-style: none;
+  display: flex;
+  gap: 90px;
+  font: normal normal normal 20px/24px Montserrat;
+  color: #ffffff;
+  opacity: 2;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  top: 151px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100vh - 100px);
+  padding: 0 50px;
+  background: url("img/bgcafe.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  }
-  
-  .hero-content {
-    top: 398px;
-    margin-left: 427px;
-    width: 857px;
-    height: 317px;
-    max-width: 50%;
-  }
-  
-  .hero-content h2 {
-    /* text-align: left; */
-    font: normal normal normal 60px/75px Great Vibes;
-    letter-spacing: 1.2px;
-    color: #C5A572;
-    
-  }
-  
-  .hero-content h1 {
-    font: normal normal normal ;
-    font-family:Bellefair;
-    font-size: 49px;
-    letter-spacing: 1.6px;
+}
 
-    /* margin-bottom: 20px; */
-  }
-  
-  .divider {
-    font-size: 20px;
-    color: #d4af37;
-    margin-bottom: 10px;
-  }
-  
-  .hero-content p {
-    margin-bottom: 30px;
-    font-weight: 300;
-  }
-  
-  .hero-content button {
-    padding: 10px 25px;
-    font-size: 16px;
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  .hero-content button:hover {
-    background-color: white;
-    color: #000;
-  }
-  
-  .scroll-number {
-    text-align: center;
-    font-size: 18px;
-    line-height: 1.8;
-  }
+.hero-content {
+  top: 398px;
+  margin-left: 427px;
+  width: 857px;
+  height: 317px;
+  max-width: 50%;
+  text-align: center;
+}
+
+.hero-content h2 {
+  font: normal normal normal 60px/75px Great Vibes;
+  letter-spacing: 1.2px;
+  color: #c5a572;
+}
+
+.hero-content h1 {
+  font: normal normal normal;
+  font-family: Bellefair;
+  font-size: 49px;
+  letter-spacing: 1.6px;
+
+  /* margin-bottom: 20px; */
+}
+
+.divider {
+  font-size: 20px;
+  color: #d4af37;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.hero-content button {
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-content button:hover {
+  background-color: white;
+  color: #000;
+}
+
+.scroll-number {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.8;
+}
 /* over story */
-.over-story{
+.over-story {
   height: 90vh;
   width: 100%;
   color: #000;
   display: flex;
-  background: url('img/ourstorybg2.png') right bottom no-repeat;
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  /* background-position: center; */
-
+  background: url("img/ourstorybg2.png") right bottom no-repeat;
 }
-.over-story-content h1{
-      display: flex;
+.over-story-content h1 {
+  display: flex;
   font-size: 25px;
   margin-left: 175px;
-  margin-top: 150px; 
+  margin-top: 150px;
   width: 133px;
   height: 27px;
   text-align: left;
-  font-family:'Montserrat';
+  font-family: "Montserrat";
   letter-spacing: 0.38px;
-  color: #C5A572;
+  color: #c5a572;
   text-transform: uppercase;
 }
-.over-story-content h2{
-    font-family: 'Bellefair';
-    font-size: 40px;
-    margin-left: 175px;
-    margin-top: 25px; 
-    width: 700px;
-    height: 51px;
-    text-transform: capitalize;
-opacity: 1;
+.over-story-content h2 {
+  font-family: "Bellefair";
+  font-size: 40px;
+  margin-left: 175px;
+  margin-top: 25px;
+  width: 700px;
+  height: 51px;
+  text-transform: capitalize;
+  opacity: 1;
 }
-.over-story-content p{
-  font-family: 'Montserrat';
+.over-story-content p {
+  font-family: "Montserrat";
   font-size: 20px;
   margin-left: 175px;
-  margin-top: 25px; 
+  margin-top: 25px;
   width: 632px;
-  /* height: 51px; */
   letter-spacing: 1px;
 }
 
-.over-story-content button{
+.over-story-content button {
   margin-top: 60px;
   margin-left: 175px;
-  font-family:'Montserrat';
+  font-family: "Montserrat";
   font-size: 20px;
   background-color: transparent;
-  color: #C5A572;
+  color: #c5a572;
   cursor: pointer;
   transition: 0.3s;
-  border: 1px solid #C5A572;
+  border: 1px solid #c5a572;
   width: 174px;
   height: 55px;
 }
@@ -261,41 +230,32 @@ opacity: 1;
   background-color: white;
   color: #421f1f;
 }
-/* .our-img{
-  height:700px;
-} */
-.img1{
+.img1 {
   margin-top: 5px;
-  /* margin-left: 10px; */
-  /* width: 390px;
-  height: 400px; */
 }
-.img2{
+.img2 {
   margin-top: 60px;
   margin-left: 60px;
-  /* width: 335px;
-  height: 547px; */
-} 
+}
 
 /* our services */
-.our-services{
+.our-services {
   height: 90vh;
-  background: url('img/ourserviceimg.png');
-  /* background-repeat: no-repeat; */
+  background: url("img/ourserviceimg.png");
   background-size: cover;
   background-position: center;
   text-align: center;
   padding: 130px 20px;
 }
 
-.section-title{
-  color:#C5A572;
+.section-title {
+  color: #c5a572;
   font-size: 27px;
   letter-spacing: 0.44px;
-  font-family:Montserrat;
+  font-family: Montserrat;
 }
-h1{
-    font-size: 61px;
+h1 {
+  font-size: 61px;
   font-weight: 500;
   margin: 30px 0 40px;
   letter-spacing: 1.2px;
@@ -314,14 +274,13 @@ h1{
   padding: 50px 50px;
   width: 456px;
   height: 303px;
-  border: 0.20000000298023224px solid #C5A572;
+  border: 0.20000000298023224px solid #c5a572;
   margin-top: 10px;
 }
 
-
 .card h3 {
   font-size: 20px;
-  color: #C5A572; 
+  color: #c5a572;
   letter-spacing: 0.7px;
   margin: 20px 0 15px;
   font: normal normal normal 40px Bellefair;
@@ -330,7 +289,6 @@ h1{
 .card p {
   font-size: 14px;
   line-height: 1.6;
-  
 }
 
 .icon-circle {
@@ -346,5 +304,535 @@ h1{
   justify-content: center;
 }
 
-
 /* special today */
+.home3 {
+  padding: 200px 130px 180px 130px;
+}
+
+.main {
+  display: flex;
+  gap: 50px;
+}
+.hp1 {
+  color: #d3b364;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 32px;
+}
+
+.c1 {
+  width: 1100px;
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+}
+
+.c2 {
+  color: rgb(129, 128, 128);
+  font-family: sans-serif;
+  margin-left: 50px;
+  font-size: 12px;
+  line-height: 2;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.special {
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  padding-top: 50px;
+  display: flex;
+  gap: 100px;
+}
+
+.menu {
+  font-size: 25px;
+}
+
+.s {
+  color: #fff;
+  padding: 50px;
+  width: 3100px;
+  height: 600px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgb(0, 0, 0, 0.3);
+  background-size: cover;
+}
+
+.s h3 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
+  padding-bottom: 5px;
+}
+
+.s ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.s ul li {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.s a {
+  font-size: 25px;
+  color: #917e4f;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.s p {
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.lines {
+  height: auto;
+  border-bottom: 1px solid #917e4f;
+  border-radius: 2px;
+  width: 120px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 4px;
+}
+.lines1 {
+  height: auto;
+  border-bottom: 1px solid #917e4f;
+  border-radius: 2px;
+  width: 90px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+/* reservation */
+reservation {
+  padding: 50px 50px 50px 90px;
+}
+
+.booking-form {
+  align-items: center;
+  background-color: #f7f0e8;
+  padding: 40px;
+  margin: auto;
+  width: 85%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.booking-form h2 {
+  color: #121d27;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 10px;
+  font-family: "Bellefair";
+  font-size: 45px;
+}
+
+.booking-form h3 {
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #cead59;
+}
+.row {
+  padding: 0 100px 0 100px;
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.group input,
+.group textarea {
+  padding: 25px;
+  font-size: 16px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.group textarea {
+  resize: vertical;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+.submit button {
+  font-family: sans-serif;
+  background-color: #111;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* team-member */
+.team-member {
+  height: 100%;
+  /* margin-top: 100px;
+margin-left: 150px; */
+}
+
+.team-member p {
+  color: #c5a572;
+  font-size: 25px;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.c1 h3 {
+  padding: 20px 0px;
+  font-size: 45px;
+  color: #121d27;
+  font-family: Bellefair;
+}
+.c1 h2{
+  padding: 0px 0px 0px 140px;
+}
+
+.des {
+  font: normal normal medium 20px/37px Montserrat;
+  letter-spacing: 0.4px;
+  color: #000000;
+  opacity: 0.59;
+  width: 50%;
+  margin-right: 150px;
+}
+
+.special2 {
+  padding: 0px 135px 0px 135px;
+  justify-content: center;
+  padding-top: 100px;
+
+  display: flex;
+  gap: 100px;
+}
+
+.container {
+  justify-content: center;
+  position: relative;
+  width: 50%;
+  background: transparent linear-gradient(180deg, #121d277d 0%, #121d27f2 100%)
+    0% 0% no-repeat padding-box;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  width: 400px;
+  height: 10px;
+  font: normal normal normal 40px/60px Bellefair;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.middle p {
+  font: normal normal normal 25px/60px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 0.65;
+  margin-left: 10px;
+}
+
+.so-icons a {
+  top: 50px;
+  margin-top: 20px;
+  width: 20px;
+  height: 17px;
+  margin-left: 10px;
+  color: white;
+  background: #3d3d3d 0% 0% no-repeat padding-box;
+}
+
+/* testimonial */
+
+.testimonial {
+  height: 100vh;
+  padding: 50px 90px 50px 90px;
+  background-image: url("img/testimonialbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.testimonial h5 {
+  margin-top: 70px;
+  font-family: Montserrat;
+  letter-spacing: 0.18px;
+  color: #c5a572;
+  font-size: 25px;
+  text-align: center;
+}
+
+.testimonial h3 {
+  margin-top: 20px;
+  font-family: "Bellefair";
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 45px;
+  text-align: center;
+}
+
+.reviews {
+  padding-top: 50px;
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+}
+
+.outer {
+  height: 371px;
+  width: 446px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px;
+}
+
+.inner {
+  text-align: center;
+  background-color: transparent;
+  width: 428px;
+  height: 347px;
+  border: 0.5px solid #c5a572;
+  padding: 25px 10px 25px 10px;
+}
+.inner p {
+  margin-left: 20px;
+  margin-top: 30px;
+  font: normal normal medium 20px/31px Montserrat;
+  letter-spacing: 0.54px;
+  color: #000000;
+  opacity: 0.52;
+  width: 340px;
+  height: 156px;
+}
+
+.blogs {
+  padding: 90px 70px 50px 70px;
+  justify-content: center;
+}
+
+.heading {
+  text-align: center;
+  padding: 0 25% 0 25%;
+}
+
+.blogs h5 {
+  font: normal normal normal 27px Montserrat;
+  letter-spacing: 0.18px;
+  color: #c5a572;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.blogs h3 {
+  margin-top: 10px;
+  width: 740px;
+  height: 111px;
+  font-family: "Bellefair";
+  color: #121d27;
+  font-size: 40px;
+}
+
+.blog {
+  justify-content: center;
+  display: flex;
+  padding-top: 50px;
+  gap: 50px;
+}
+
+.bb1 {
+  padding: 35px 0 35px 0;
+  width: 300px;
+  height: 280px;
+}
+
+.bb1 h6 {
+  font-size: 20px;
+  font-family: "Montserrat";
+  letter-spacing: 0px;
+  color: #121d27;
+}
+
+.bb1 p {
+  font-size: 20px;
+  color: #696969;
+  font-family: sans-serif;
+}
+
+.bb1 a {
+  font-size: 20px;
+  color: #b49f6b;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.quote {
+  width: 17rem;
+  height: 220px;
+  background-color: #f7f2e2;
+  padding: 30px 0 30px 0;
+  text-align: center;
+}
+
+.quotem {
+  width: 14rem;
+  height: 200px;
+  background-color: #f7f2e2;
+  padding: 30px 0 30px 0;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.quotem p {
+  text-align: center;
+  font: normal normal medium 25px/40px Montserrat;
+  letter-spacing: 0px;
+  color: #121d27;
+  opacity: 1;
+  margin-bottom: 30px;
+}
+.quote p {
+  text-align: center;
+  font: normal normal medium 20px Montserrat;
+  letter-spacing: 0px;
+  color: #121d27;
+  margin-bottom: 40px;
+}
+
+.bname {
+  font-size: 12px;
+  font-family: "Montserrat";
+  letter-spacing: 0.4px;
+  color: #000000;
+  opacity: 0.43;
+}
+
+.b1 img {
+  height: 250px;
+  width: 16rem;
+}
+
+.video {
+  margin-top: 90px;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  position: relative;
+  text-align: center;
+}
+
+/* Take A Tour */
+.Take-A-Tour {
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  padding: 100px 25% 0 25%;
+}
+
+.title h5 {
+  font: normal normal normal 27px Montserrat;
+  letter-spacing: 0.18px;
+  color: #c5a572;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.title h3 {
+  margin-top: 10px;
+  height: 111px;
+  font-family: "Bellefair";
+  color: #121d27;
+  font-size: 40px;
+}
+
+.special3 {
+  margin-left: 170px;
+  justify-content: center;
+  width: 80%;
+  /* height: 500px; */
+  padding-top: 100px;
+
+  display: flex;
+  gap: 50px;
+}
+
+.image2 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+
+.cafelogo {
+  text-decoration: none;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+  gap: 39px;
+  margin-left: 70px;
+}
+
+.cafelogo img {
+  height: 100px;
+}
+
+.fl {
+  flex: 2;
+  height: 2px;
+  border-top: 2px dashed #917e4f;
+  margin-top: 20px;
+  width: 550px;
+}
+

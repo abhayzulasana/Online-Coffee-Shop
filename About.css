@@ -1,0 +1,597 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    /* margin-left:90px; */
+    height: 100vh;
+  }
+  html {
+    scroll-behavior: smooth;
+    /*Adds smooth scrolling instead of snapping to element*/
+  }
+  
+  /* Top Bar */
+  /* .top-bar {
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    font-size: 14px;
+    padding-left: 190px;
+  }
+  
+  .social-icons a {
+    margin-top:5px;
+    width:40px;
+    height: 17px;
+    color: white;
+    font-size: 20px;
+
+  }
+  .contact-info{
+    display: flex;
+    gap: 40px;
+    margin-right: 320px;
+    font-family: 'Montserrat';
+
+    align-items: center;
+}
+
+.contact-info i{
+    font-size: 16px;
+}
+
+   Navbar 
+  .navbar {
+    top: 47px;
+    margin-left: 0px;
+    width: 100%;
+    height: 104px;
+    background-color: #121D27;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 15px 50px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+  }
+.logo img{
+  margin-left: 137px;
+}
+  .logo-text {
+    top: 81px;
+    width: 92px;
+    height: px;
+    color: #C5A572;
+    font-family: 'Great Vibes', cursive;
+    margin-left: 210px;
+    font-size: 45px;
+  }
+  
+  .logo-text small {
+    display: block;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .nav-links {
+    margin-right: 80px;
+    margin-top: 23px;
+    height: 24px;
+    list-style: none;
+    display: flex;
+    gap: 90px;
+    font: normal normal normal 20px/24px Montserrat;
+    color: #FFFFFF;
+    opacity: 2;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+    font-size: 20px;
+  } */
+
+    /* Hero Section */
+    /* .hero {
+        top: 151px;
+        left: 0px;
+        width: 100%;
+        height: 498px;;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(
+            rgba(16, 12, 32, 0.8),
+            rgba(0, 0, 0, 0.7)
+              ), url('img/footerbg.png')  ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      
+      .hero-content {
+        text-align: center;
+      }
+      
+      .hero-content h2 {
+        font-family: 'Montserrat';
+        letter-spacing: 1.2px;
+        color: #FFFFFF;
+        height: 24px;
+        text-align: center;
+        
+      }
+      
+      .hero-content h1 {
+        height: 100px;
+        font-family:'Bellefair';
+        font-size: 65px;
+        letter-spacing: 1.2px;
+        color: #C5A572;
+        opacity: 1;    
+      } */
+      
+      /* OUR STORY */
+      .ourstory{
+        height: 100vh;
+      }
+      .title{
+        padding: 190px 0px 0px 0px;
+        text-align: center;
+        
+      }
+      .title h3{
+        font: normal normal normal 22px/27px Montserrat;
+        letter-spacing: 0.18px;
+        color: #C5A572;
+        text-transform: uppercase;
+        opacity: 1;
+      }
+
+      .title h4{
+        margin-top: 30px;
+        font: normal normal normal 45px/50px Bellefair;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: capitalize;
+        opacity: 1;
+      }
+
+      .box{
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 130px;
+      }
+
+    .containt{
+        width: 656px;
+        height: 451px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #C5A572;
+        opacity: 1;
+        text-align: center;
+        justify-items: center;
+    }
+
+    .containt h5{
+        margin-top: 61px;
+        margin-bottom: 33px;
+        text-align: center;
+        font: normal normal normal 45px/50px Bellefair;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: capitalize;
+        opacity: 1;
+    }
+
+    .containt p{
+        width: 587px;
+        height: 246px;
+        text-align: center;
+        font-size: 22px ;
+        font-family: 'Montserrat';
+        letter-spacing: 1.4px;
+        color: #121D27;
+        opacity: 0.59;
+    }
+
+    .view{
+      width: 100%;
+      justify-content: center;
+      justify-items: center;
+      text-align: center;
+        margin-top: 64px;
+        padding: 100px;
+        height: 382px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 110px;
+        background: #F4EEE4 0% 0% no-repeat padding-box;
+        opacity: 1
+    }
+    .over-view h2{
+        width: 311px;
+        height: 116px;
+        text-align: left;
+        font: normal normal normal 40px/65px Bellefair;
+        letter-spacing: 0.9px;
+        color: #121D27;
+        opacity: 1;
+    }
+    .sideshow{
+      height: 208px;      
+      border: 0.5px solid #C5A572;
+      opacity: 1;    
+    }
+    .dish{
+      text-align: center;
+      justify-content: center;
+      justify-items: center;
+      margin-top: 20px;
+      width: 168px;
+      height: 209px;
+    }
+    .dish h3{
+      
+      height: 55px;
+      text-align: left;
+      font: normal normal normal 48px/65px Bellefair;
+      letter-spacing: 0.96px;
+      color: #121D27;
+    opacity: 1;
+    }
+    .dish h4{
+      width: 231px;
+      height: 30px;
+      font: normal normal normal 25px/65px Montserrat;
+      letter-spacing: 0.5px;
+      color: #121D27;
+      text-transform: lowercase;
+      opacity: 0.65;
+    }
+    .i-v{
+      text-align: center;
+      justify-items: center;
+      justify-content: center;
+
+      height: 650px;
+
+    }
+    .i{
+      width: 1440px;
+      height: 536px;
+      margin-top: 125px;
+
+      background:linear-gradient(
+        rgba(16, 12, 32, 0.8),
+        rgba(0, 0, 0, 0.7)
+          ),  url('img/blog/blogimg10.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      opacity: 1;  
+    }
+
+.our-spac{
+height: 100vh;
+text-align: center;
+justify-content: center;
+justify-items: center;
+margin-bottom: 100px;
+}
+.spec-text{
+  text-align: center;
+  font-family: 'Montserrat';
+letter-spacing: 0.18px;
+color: #C5A572;
+text-transform: uppercase;
+opacity: 1;
+ justify-content: center;font-size: 22px;
+}
+.spec-text2{
+  text-align: center;
+  font: normal normal normal 45px/65px Bellefair;
+letter-spacing: 0px;
+color: #000000;
+text-transform: capitalize;
+opacity: 1;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+  background-color: transparent;
+  width: 456px;
+  margin-top: 100px;
+}
+
+.card h3{
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font: normal normal normal 40px/40px Bellefair;
+letter-spacing: 0px;
+color: #121D27;
+opacity: 1;
+}
+
+.card p{
+  font: normal normal medium 20px/36px Montserrat;
+  letter-spacing: 0.4px;
+  color: #000000;
+  opacity: 0.59;
+  width: 415px;
+}
+
+.our-stand{
+  height: 100%;
+  justify-content: center;
+  justify-items: center;
+}
+
+.box2{
+  text-align: center;
+  margin-top: 135px;
+  width: 1440px;
+  height: 743px;
+  background: #F4EEE4 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.box2 h2{
+  padding: 133px 0px 25px 0px;
+  font: normal normal normal 22px/27px Montserrat;
+  letter-spacing: 0.18px;
+  color: #C5A572;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.box2 h3{
+  margin-bottom: 59px;
+  font: normal normal normal 45px/65px Bellefair;
+letter-spacing: 0px;
+color: #000000;
+text-transform: capitalize;
+opacity: 1;
+}
+
+.cont{
+  /* padding: 59px 50px 0px 50px; */
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+text-align: center;
+gap: 48px;
+}
+
+.info{
+  width: 383px;
+  height: 331px;
+}
+.info h4{
+  margin-bottom: 19.50px;
+  font: normal normal normal 82px/43px Bellefair;
+  letter-spacing: 2.46px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.info h5{
+  margin-bottom: 25px;
+  font-size: 25px;
+  font-family: 'Montserrat';
+  width: 322px;
+  height: 77px;
+letter-spacing: 0.75px;
+color: #121D27;
+text-transform: capitalize;
+opacity: 1;
+}
+
+.info p{
+  font: normal normal medium 20px/40px Montserrat;
+letter-spacing: 0.6px;
+color: #121D27;
+opacity: 0.61;
+}
+
+.sideshoo{
+  margin-top: 40px;
+  height: 179px;      
+  border: 0.5px solid #C5A572;
+  opacity: 1;    
+
+}
+
+
+/* team-member */
+.team-member{
+  height: 90%;
+/* margin-top: 100px;
+margin-left: 150px; */
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-member p{
+  color: #C5A572;
+  font-size: 25px;
+  margin-top: 100px;
+margin-left: 150px;
+}
+.c1{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.c1 h3{
+  padding: 20px 0px;
+  font-size: 45px;
+  color: #121D27;
+  font-family:Bellefair;
+  margin-left: 150px;
+  width: 30%;
+}
+
+.des {
+  font-family: 'Montserrat';
+  font-size:22px ;
+  letter-spacing: 0.4px;
+  color: #000000;
+  opacity: 0.59;
+  width: 50%;
+  margin-right: 150px;
+}
+
+.special2{
+  margin-left: 170px;
+  justify-content: center;
+  width: 80%;
+  /* height: 500px; */
+  padding-top: 100px;
+
+  display: flex;
+  gap: 100px;
+}
+
+.container {
+  justify-content: center;
+  position: relative;
+  width: 50%;
+  background: transparent linear-gradient(180deg, #121D277D 0%, #121D27F2 100%) 0% 0% no-repeat padding-box;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+
+  width: 400px;
+  height: 10px;
+  font: normal normal normal 40px/60px Bellefair;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  /* text-align: center; */
+  /* padding: 16px 32px; */
+}
+
+
+.middle p{
+  font: normal normal normal 25px/60px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  opacity: 0.65;
+  margin-left: 10px;
+}
+
+.so-icons a{
+  top: 50px;
+  margin-top:20px;
+  width:20px;
+  height: 17px;
+  margin-left: 10px;
+  color: white;
+  /* background: #3D3D3D 0% 0% no-repeat padding-box; */
+
+}
+
+/* Take A Tour */
+.Take-A-Tour{
+  height:100%;
+  width: 100%;
+}
+
+.title2{
+    text-align: center;
+    padding:100px 25% 0 25%;  
+}
+
+.title2 h5{
+  font: normal normal normal 27px Montserrat;
+  letter-spacing: 0.18px;
+  color: #C5A572;
+  text-transform: uppercase;
+  opacity: 1;
+
+}
+
+.title2 h3{
+  margin-top: 10px;
+  height: 111px;
+  font-family: 'Bellefair';
+  color: #121D27;
+    font-size: 40px;    
+
+}
+
+.special3{
+  margin-left: 170px;
+  justify-content: center;
+  width: 80%;
+  /* height: 500px; */
+  padding-top: 100px;
+
+  display: flex;
+  gap: 50px;
+}
+
+.image2 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+

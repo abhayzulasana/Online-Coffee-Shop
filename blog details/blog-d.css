@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  /* color: white; */
+  /* margin-left:90px; */
+  height: 100vh;
+}
+html {
+  scroll-behavior: smooth;
+  /*Adds smooth scrolling instead of snapping to element*/
+}
+
+.main2 {
+  display: flex;
+  /* flex-wrap: wrap; */
+  padding: 125px 135px;
+  gap: 100px;
+}
+
+.left {
+  width: 950px;
+}
+.left h4 {
+  margin-top: 61px;
+  font-size: 25px;
+  font-family: "Montserrat";
+
+  letter-spacing: 0px;
+  color: #c5a572;
+  opacity: 1;
+}
+.left h2 {
+  margin-bottom: 40px;
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: "Montserrat";
+  letter-spacing: 0px;
+  color: #121d27;
+}
+.left p {
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-family: "Montserrat";
+
+  letter-spacing: 0.78px;
+  color: #000000;
+  opacity: 0.6;
+}
+.im img {
+  gap: 200px;
+  margin-left: 20px;
+}
+.profile{
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  height: 278px;  
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.5px solid #C5A572;
+  opacity: 1;
+}
+.des{
+padding: 0px 0px 0px 36px;
+}
+.des h3{
+display: block;
+font: normal normal normal 40px/40px Bellefair;
+letter-spacing: 0px;
+color: #121D27;
+}
+.des p{
+  margin-top: 25px;
+  font: normal normal medium 20px/32px Montserrat;
+  letter-spacing: 0.78px;
+  color: #000000;
+  opacity: 0.6;
+}
+.des a{
+  margin-right: 50px;
+  padding: px 0px;
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+.left button{
+  margin-top: 40px;
+  font-family: 'Montserrat';
+  font-size: 21px;
+letter-spacing: 0px;
+color: #121D27;
+border: none;
+background: #FFFFFF;
+
+}
+.bt{
+margin-left: 765px;}
+
+
+/* right  */
+.right {
+  height: auto;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+.search {
+  position: relative;
+  margin-bottom: 30px;
+}
+.search input {
+  width: 440px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #121d27;
+  opacity: 0.42;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.5px solid #121d27;
+  padding: 17px 25px 17px 10px;
+  margin-top: 40px;
+}
+.search button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  padding: 0 12px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+h3 {
+  display: block;
+  height: 30px;
+  font: normal normal 600 25px/40px Montserrat;
+  letter-spacing: 0px;
+  color: #121d27;
+  opacity: 1;
+  /* margin-bottom: 40px; */
+}
+.cate {
+}
+.cate ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 65px;
+}
+.cate li {
+  font: normal normal medium 20px/40px Montserrat;
+  letter-spacing: 0px;
+  color: #121d27;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  padding: 40px 0px 0px 0px;
+}
+hr {
+  display: block;
+  margin-top: 15px;
+}
+
+/* recent post */
+.recent {
+  padding: 0px 0px 40px 0px;
+}
+.recent hr{
+margin-top: 30px;
+margin-bottom: 30px;
+  display: block;
+   
+
+
+}
+.recent h3{
+  display: block;
+  margin-bottom: 40px;
+}
+.post {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.im img {
+}
+.con {
+  padding: 30px 0px 0px 30px;
+}
+h5 {
+  /* margin-bottom: 40px; */
+  font-family: 'Montserrat';
+  font-size: 20px;
+
+  display: block;
+  letter-spacing: 0px;
+  color: #121d27;
+  margin-bottom: 20px;
+}
+.post p {
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  letter-spacing: 0px;
+  color: #121d27;
+  opacity: 0.42;
+}
+.tags {
+margin-top: 20px;
+}
+.tags h2 {
+  padding: 40px 0px 60px 0px;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  letter-spacing: 0px;
+  color: #121D27;
+  opacity: 1;}
+.s-blog {
+}
+.s-blog a {
+  margin-right: 50px;
+  padding: 50px 0px;
+  color: #333;
+  text-decoration: none;
+  font-size: 31px;
+}
+
+/* comments */
+.comm{
+  padding: 50px 580px 100px 135px;
+
+}
+.comm h3{
+  height: 63px;
+  font: normal normal normal 55px/40px Bellefair;
+letter-spacing: 0px;
+color: #121D27;
+}
+.boy{
+  width: 993px;
+display: flex;
+padding: 40px 0px;
+
+}
+.grey{
+  padding: 54px 40px 54px 39px;
+  height: 272px;
+  background: #C5A57217 0% 0% no-repeat padding-box;
+  display: flex;
+}
+.boy img{
+  height: 164px;
+}
+.cont{
+padding: 0px 0px 0px 35px;
+}
+.cont h6{
+  font-family: 'Bellefair';
+  font-size: 40px;
+  letter-spacing: 0px;
+  color: #121D27;
+}
+.cont h5{
+  display: blog;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #979797;
+  padding: 10px 0px 0px 0px 0px;
+}
+.cont p{
+  font-family: 'Montserrat';
+  font-size: 20px;
+  letter-spacing: 0.78px;
+  color: #000000;
+  opacity: 0.6;
+}
+.h{
+  font-family: 'Montserrat';
+  font-size: 25px;
+  letter-spacing: 0px;
+  color: #121D27;
+}
+
+.girl{
+width: 935px;
+margin-left: 60px;
+}
+.girl img{
+  height: 164px;
+
+}
+
+/* Leave a repley */
+reservation{
+  /* padding: 145px 0px 100px 135px; */
+}
+
+.booking-form{
+  padding: 145px 580px 100px 135px;
+
+/* align-items: left; */
+  margin: auto;
+  /* width: 993px; */
+}
+.booking-form h2{
+  padding: 0px 0px 05px 0px;
+  text-align: left;
+  font: normal normal normal 18px/50px Montserrat;
+  letter-spacing: 0px;
+  color: #979797;
+}
+
+.booking-form h3{
+  height: 63px;  
+  text-align: left;
+  font: normal normal normal 55px/40px Bellefair;
+  letter-spacing: 0px;
+  color: #121D27;}
+.row{
+  /* padding: 0 100px 0 100px; */
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.group{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.group input,
+.group textarea{
+  padding: 25px 25px 25px 0px;
+  font-size: 16px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.group textarea{
+  resize: vertical;
+}
+
+.submit{
+  display: flex;
+margin-top: 55px;  
+}
+
+.submit button{
+  font-family: sans-serif;
+  background-color: #111;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
